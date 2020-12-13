@@ -1,0 +1,35 @@
+        .user-details {
+            width: 48%;
+            float: left;
+        }
+
+        .account-details {
+            width: 48%;
+            float: right;
+        }
+
+        .row, .row textarea {
+            border-bottom: 1px solid black;
+            width:100%
+        }
+
+        .row input, .row textarea {
+            border: 0;
+        }
+
+        .user-details div, .account-details div {
+            margin-bottom: 10px;
+        }
+        .country{
+            border-bottom: 1px black solid;
+            width: 25%;
+            float: left;
+        }
+        .tel{
+            border-bottom: 1px black solid;
+            width: 70%;
+            float: right;
+        }
+        .button{
+            margin-left: 35px;
+        }

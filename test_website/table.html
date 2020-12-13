@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Table</title>
+
+</head>
+<body>
+<h5><a href="index.html">back</a></h5>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <style type="text/css">
+        TABLE{
+            border-color:orange;
+        }
+        TH{
+            color: white;
+            background:gray;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+<header class="header"><p>Header...</p></header>
+<div class="container">
+    <main class="center column">
+        <article>
+            <h1>Table</h1>
+        <table border="1" width="1000px" cellpadding="20px" cellspacing="0px">
+            <tr class="head">
+                <th>Firm</th>
+                <th>Org</th>
+                <th>Lab</th>
+                <th>Sub Lab</th>
+                <th>Plans</th>
+                <th>Components</th>
+            </tr>
+            <tr>
+                <td rowspan="11">ASDF</td>
+                <td rowspan="5">CSI</td>
+                <td rowspan="3">CT</td>
+                <td>ADS</td>
+                <td>1</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>BTD</td>
+                <td>2</td>
+                <td>13</td>
+
+            </tr>
+            <tr>
+                <td>CSI</td>
+                <td>3</td>
+                <td>14</td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">WCT</td>
+                <td>ADS</td>
+                <td>4</td>
+                <td>15</td>
+
+            </tr>
+            <tr>
+                <td>BTD</td>
+                <td>5</td>
+                <td>16</td>
+
+            </tr>
+            <tr>
+                <td colspan="3" align="right">Sub total</td>
+                <td>6</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td rowspan="4">CST</td>
+                <td rowspan="3">CT</td>
+                <td>ADS</td>
+                <td>7</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>BTD</td>
+                <td>8</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>CSI</td>
+                <td>9</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>WCT</td>
+                <td>ADS</td>
+                <td>10</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">Sub total</td>
+                <td>11</td>
+                <td>22</td>
+            </tr>
+        </table>
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="slider.html">Slider</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><p>Footer...</p></footer>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
